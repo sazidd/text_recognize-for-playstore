@@ -22,6 +22,8 @@ dependencies:
   floating_action_bubble:
   percent_indicator:
   google_mobile_ads:
+  provider:
+  pedantic:
 
 dev_dependencies:
   flutter_test:
