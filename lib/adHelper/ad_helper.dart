@@ -3,10 +3,12 @@ import 'dart:io';
 class AdHelper {
   static String get bannerAdUnitId {
     if (Platform.isAndroid) {
+      //real id return 'ca-app-pub-2224620665901988/1640730989';
       return 'ca-app-pub-3940256099942544/6300978111';
-    } else if (Platform.isIOS) {
-      return 'ca-app-pub-3940256099942544/2934735716';
     }
-    throw new UnsupportedError("Unsupported platform");
+    // else if (Platform.isIOS) {
+    //   return 'ca-app-pub-3940256099942544/2934735716';
+    // }
+    throw UnsupportedError('Unsupported platform');
   }
 }
